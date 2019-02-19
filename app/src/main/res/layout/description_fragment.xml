@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#000000"
+            android:padding="8dp"
+            app:pageColor="#FFFFFF"
+            app:fillColor="#FFFFFF"
+            app:autoPlay="true"
+            app:radius="6dp"
+            app:strokeColor="#9C9C9C"
+            app:strokeWidth="1dp"
+            app:slideInterval="5000"/>
+
+        <TextView
+            android:id="@+id/description_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/carouselView"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="Frying Pan Farm "
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_heading"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="Frying Pan Farm Text"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/url_text"
+            android:layout_below="@id/description_text"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="url.com"
+            android:autoLink="web"
+            />
+
+    </RelativeLayout>
+</ScrollView>

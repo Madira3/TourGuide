@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Herndon Tour Guide</string>
+    <string name="about">About</string>
+    <string name="shopping">Shopping Centers</string>
+    <string name="visit">Places to Visit</string>
+    <string name="dining">Dining</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="museum">Steven F.Udvar Hazy Center</string>
+    <string name="golf">Herndon Centennial Golf Course</string>
+    <string name="park">Frying Pan Farm Park</string>
+    <string name="depot">Herndon Depot</string>
+    <string name="crowne">Crowne Plaza Dulles Airport</string>
+    <string name="marriot">Marriot Suites</string>
+    <string name="hyatt">Hyatt Regency Dulles</string>
+    <string name="stones">Stone\'s Cove Kitbar</string>
+    <string name="jimmy">Jimmy\'s Old Town Tavern</string>
+    <string name="houlihan">Houlihan\'s</string>
+    <string name="bagel">The Bagel Cafe</string>
+    <string name="extended_stay">Extended Stay America</string>
+    <string name="village_center">Village Center at Dulles</string>
+    <string name="worldgate">Worldgate Centre</string>
+    <string name="woodland">Woodland Park Crossing</string>
+    <string name="stay">Places to Stay</string>
+
+</resources>
