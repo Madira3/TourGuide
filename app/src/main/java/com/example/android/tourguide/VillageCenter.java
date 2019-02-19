@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
 public class VillageCenter extends android.app.Fragment {
 
     CarouselView carouselView;
-    int[] villageCenterImages = {R.drawable.village_center, R.drawable.village_carousel1,R.drawable.village_carousel2,R.drawable.village_carousel3};
+    int[] villageCenterImages = {R.drawable.village_center, R.drawable.village_carousel1};
 
        public VillageCenter() {
         // Required empty public constructor

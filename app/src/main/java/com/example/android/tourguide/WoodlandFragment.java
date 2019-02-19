@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
 public class WoodlandFragment extends android.app.Fragment {
 
     CarouselView carouselView;
-    int[] woodlandImages = {R.drawable.woodland, R.drawable.woodland_carousel1,R.drawable.woodland_carousel2,R.drawable.woodland_carousel3};
+    int[] woodlandImages = {R.drawable.woodland, R.drawable.woodland_carousel1};
 
     private String url = "https://woodlandparkcrossing.com/";
     

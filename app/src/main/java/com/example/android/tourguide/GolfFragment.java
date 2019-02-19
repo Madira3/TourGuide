@@ -25,7 +25,7 @@ import java.io.InputStreamReader;
 public class GolfFragment extends android.app.Fragment {
 
     CarouselView carouselView;
-    int[] golfImages = {R.drawable.golf, R.drawable.golf_carousel1, R.drawable.golf_carousel2, R.drawable.golf_carousel3};
+    int[] golfImages = {R.drawable.golf, R.drawable.golf_carousel1};
 
     private String url = "https://www.herndongolf.com";
     public GolfFragment() {

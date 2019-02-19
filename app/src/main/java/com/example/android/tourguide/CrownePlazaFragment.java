@@ -25,7 +25,7 @@ import java.io.InputStreamReader;
 public class CrownePlazaFragment extends Fragment {
 
     CarouselView carouselView;
-    int[] crownePlazaImages = {R.drawable.crowne_plaza, R.drawable.crowne_carousel1, R.drawable.crowne_carousel2, R.drawable.crowne_carousel3};
+    int[] crownePlazaImages = {R.drawable.crowne_plaza, R.drawable.crowne_carousel1};
 
     private String url = "http://www.cpdulles.com/";
 

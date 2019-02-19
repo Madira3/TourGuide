@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
 public class ExtendedStayFragment extends android.app.Fragment {
 
     CarouselView carouselView;
-    int[] extendedStayImages = {R.drawable.extended_stay, R.drawable.extended_carousel1, R.drawable.extended_carousel2, R.drawable.extended_carousel3};
+    int[] extendedStayImages = {R.drawable.extended_stay, R.drawable.extended_carousel1};
 
     private String url = "https://www.extendedstayamerica.com/hotels/dc/washington-dc/herndon-dulles";
 

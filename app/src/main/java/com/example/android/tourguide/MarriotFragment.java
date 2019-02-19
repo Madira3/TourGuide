@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
 public class MarriotFragment extends android.app.Fragment {
 
     CarouselView carouselView;
-    int[] marroitSuiteImages = {R.drawable.marriot_suites, R.drawable.marriot_carousel1, R.drawable.marriot_carousel2, R.drawable.marriot_carousel3};
+    int[] marroitSuiteImages = {R.drawable.marriot_suites, R.drawable.marriot_carousel1};
 
     private String url = "https://www.marriott.com/hotels/travel/iadds-washington-dulles-marriott-suites/";
 

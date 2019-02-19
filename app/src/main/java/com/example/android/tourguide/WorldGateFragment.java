@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
 public class WorldGateFragment extends android.app.Fragment {
 
     CarouselView carouselView;
-    int[] worldGateImages = {R.drawable.worldgate, R.drawable.worldgate_carousel, R.drawable.worldgate_carousel2,R.drawable.worldgate_carousel3};
+    int[] worldGateImages = {R.drawable.worldgate, R.drawable.worldgate_carousel};
 
     private String url = "https://www.worldgatecentre.com/";
 

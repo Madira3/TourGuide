@@ -23,7 +23,7 @@ import java.io.InputStreamReader;
  */
 public class FarmParkFragment extends android.app.Fragment {
     CarouselView carouselView;
-    int[] farmParkImages = {R.drawable.fryingpanfarm, R.drawable.park_carousel1, R.drawable.park_carousel2, R.drawable.park_carousel3};
+    int[] farmParkImages = {R.drawable.fryingpanfarm, R.drawable.park_carousel1};
 
     private String url = "https://www.fairfaxcounty.gov/parks/frying-pan-park";
 

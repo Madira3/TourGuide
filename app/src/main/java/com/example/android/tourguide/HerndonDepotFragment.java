@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
 public class HerndonDepotFragment extends android.app.Fragment {
 
     CarouselView carouselView;
-    int[] depotImages = {R.drawable.herndon_depot, R.drawable.depot_carousel1, R.drawable.depot_carousel2};
+    int[] depotImages = {R.drawable.herndon_depot, R.drawable.depot_carousel1};
 
     private String url = "http://www.herndonhistoricalsociety.org/";
 

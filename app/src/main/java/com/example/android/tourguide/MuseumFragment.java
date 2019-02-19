@@ -22,7 +22,7 @@ import java.io.InputStreamReader;
 public class MuseumFragment extends Fragment {
 
     CarouselView carouselView;
-    int[] museumImages = {R.drawable.museum, R.drawable.museum_carousel1, R.drawable.museum_carousel2, R.drawable.museum_carousel3};
+    int[] museumImages = {R.drawable.museum, R.drawable.museum_carousel1};
 
     private String url = "https://airandspace.si.edu/udvar-hazy-center";
     public MuseumFragment() {

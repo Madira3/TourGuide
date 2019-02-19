@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
 public class HyattFragment extends android.app.Fragment {
 
     CarouselView carouselView;
-    int[] hyattImages = {R.drawable.hyatt, R.drawable.hyatt_carousel1, R.drawable.hyatt_carousel2, R.drawable.hyatt_carousel3};
+    int[] hyattImages = {R.drawable.hyatt, R.drawable.hyatt_carousel1};
 
     private String url = "https://www.hyatt.com/en-US/hotel/virginia/hyatt-regency-dulles/dulle";
 
